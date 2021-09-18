@@ -1,0 +1,28 @@
+POST http://localhost:8081/api/login/new
+Content-Type: application/json
+
+{
+    "nombre":"test3",
+    "password":"12345",
+    "email":"test3@mail.com"
+}
+
+###
+POST http://localhost:8081/api/login
+Content-Type: application/json
+
+{
+    "email":"test2@mail.com",
+    "password":"12345"
+}
+
+###
+GET  http://localhost:8081/api/login/renew
+Content-Type: application/json
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MDdmN2E1NjAxMGUzMDMwYzQ2NjkwYzciLCJpYXQiOjE2MTg5Njg3NTMsImV4cCI6MTYxOTA1NTE1M30.eB0pnk9t_qlF_cr3UwNioPgXnQ5j2v457E7O6Y8KYfY
+
+
+###
+GET  http://localhost:8081/api/mensajes/607f7ac2c485cf2fe461eb97
+Content-Type: application/json
+x-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MDdmN2E1NjAxMGUzMDMwYzQ2NjkwYzciLCJpYXQiOjE2MTk3OTcwMDMsImV4cCI6MTYxOTg4MzQwM30.SXn-Oi3uTFFoPsMHmxDGZrKtnODhyoaZ1Q01ANyMOmM
